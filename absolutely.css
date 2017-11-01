@@ -12,5 +12,192 @@ body {
 	min-height : 600px;
 	background-image : url(bg.jpg);
 	border : 4px solid red;
+	height: 656px;
 }
 
+#title {
+	 position: relative;
+	 top: -170px;
+	 left: 30px;
+}
+
+h1 {
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: rgba(255,255,255,0.3);
+	position: relative;
+	top: -155px;
+	overflow: inherit;
+}
+
+p {
+	position: relative;
+	top: -174px;
+	padding-left: 10px;
+	padding-right: 5px;
+	background-color: rgba(255,255,255,0.3);
+	padding-bottom: 10px;
+	margin-bottom: 0%;
+	text-align: inherit;
+	z-index: 5;
+}
+
+#hammer {
+	position: relative;
+	top: -70px;
+}
+
+#hammer:hover {
+	position: relative;
+	top: -68px;
+}
+
+#saw {
+	position: relative;
+	left: -370px;
+	top: 50px;
+}
+
+#saw:hover {
+	position: relative;
+	left: -368px;
+	top: 51px;
+}
+
+#pincers {
+	position: relative;
+	left: 580px;
+}
+
+#pincers:hover {
+	position: relative;
+	left: 577px;
+}
+
+#screwdriver {
+	position: relative;
+	left: 352px;
+	top: -165px;
+}
+
+#screwdriver:hover {
+	position: relative;
+	left: 350px;
+	top: -165px;
+}
+
+#toolbox {
+	position: relative;
+	top: -40px;
+	left: -175px;
+}
+
+#toolbox:hover ul{
+	visibility: visible;
+}
+
+#paint {
+	color: gray;
+	text-decoration: none;
+	padding-right: 30px;
+}
+
+#mason {
+	color: gray;
+	text-decoration: none;
+	padding-right: 30px;
+}
+
+#carpenter {
+	color: gray;
+	text-decoration: none;
+	padding-right: 30px;
+}
+
+#weld {
+	color: gray;
+	text-decoration: none;
+	padding-right: 30px;
+}
+
+.menubar:hover #paint {
+	color: black;
+}
+.menubar:hover #mason {
+	color: black;
+}
+.menubar:hover #carpenter {
+	color: black;
+}
+.menubar:hover #weld {
+	color: black;
+}
+
+.menubar {
+	background: linear-gradient(black, gray);
+	padding: 5px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.menubar:hover {
+	background: linear-gradient(gray, white);
+}
+
+ul {
+		position: relative;
+		top: -60px;
+		left: 390px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 95px;
+    background-color: white;
+		border: 1px solid #555;
+		visibility: hidden;
+		z-index: 2;
+}
+
+li a {
+		display: block;
+    color: grey;
+    padding: 8px 5px;
+    text-decoration: none;
+		border-bottom: 2px solid #555;
+		border: 1px 2px 1px 1px solid #555;
+}
+li a.active {
+    background-color: white;
+    color: grey;
+}
+
+li a:hover:not(.active) {
+    background-color: #F3F781;
+    color: black;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+#humanfactor {
+	color: blue;
+}
+
+#factor {
+	visibility: hidden;
+	color: black;
+	border: 3px solid blue;
+	z-index: 2px;
+	position: absolute;
+	top: 50px;
+	left: 500px;
+	right: -40px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 6px;
+}
+
+#humanfactor:hover #factor{
+	visibility: visible;
+}
